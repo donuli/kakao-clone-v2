@@ -51,3 +51,30 @@
   animation: showNavBar 0.5s ease-out forwards;
   animation-delay: 0.5s;
 }
+
+@keyframes rotate {
+  0% {
+    transform: none;
+    box-shadow: none;
+  }
+  10%,
+  30% {
+    transform: rotate(-15deg);
+  }
+  20%,
+  40% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: none;
+    box-shadow: 0 0 10px 1px rgb(0, 255, 34);
+  }
+  100% {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+.nav__badge {
+  animation: rotate 1s ease-in infinite;
+}
