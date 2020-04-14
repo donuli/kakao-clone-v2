@@ -67,7 +67,7 @@
   }
   50% {
     transform: none;
-    box-shadow: 0 0 10px 1px rgb(0, 255, 34);
+    box-shadow: 0 0 10px 1px rgb(0, 252, 34);
   }
   100% {
     transform: none;
